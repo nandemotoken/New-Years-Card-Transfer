@@ -13,10 +13,10 @@ https://nandemotoken.github.io/New-Years-Card-Transfer/Cards/NandemoToken.html
 https://nandemotoken.github.io/New-Years-Card-Transfer/Cards/Hirory.html
 
 ### Da-様
-https://nandemotoken.github.io/New-Years-Card-Transfer/otukarehitoiki1.html
+https://nandemotoken.github.io/New-Years-Card-Transfer/Cards/otukarehitoiki1.html
 
 ### さーもん様
-https://nandemotoken.github.io/New-Years-Card-Transfer/salmon_crypto.html
+https://nandemotoken.github.io/New-Years-Card-Transfer/Cards/salmon_crypto.html
 
 ### まるまる様
-https://nandemotoken.github.io/New-Years-Card-Transfer/maruhisao.html
+https://nandemotoken.github.io/New-Years-Card-Transfer/Cards/maruhisao.html
