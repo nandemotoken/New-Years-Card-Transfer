@@ -33,7 +33,7 @@ web3tr = new Web3(torus.provider);
 
 const Address = "0x129C80Af1B8Ef9E359f2Cee876760498D29A6457";
 
-async function checkcard(){
+async function checkcardNandemoToken(){
   console.log("check card");
   
   mycontract = await new web3tr.eth.Contract(abi, Address);
@@ -57,7 +57,7 @@ async function makecardNandemoToken(){
   let ret = await mycontract.methods.mint().send({ from: useraddress[0] });
   //ret.on("receipt" , setTimeout( checkcard() , 5000 ));;
 	document.getElementById("idn").innerHTML = "年賀状到着まで約20秒お待ちください";
-  setTimeout( checkcard() , 10000 )
+  setTimeout( checkcardNandemoToken() , 10000 )
 	console.log("useraddress[0]_is_your_Address:" + useraddress[0]);
 }
 
