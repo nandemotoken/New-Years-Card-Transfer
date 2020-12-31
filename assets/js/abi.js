@@ -1,4 +1,4 @@
-[
+abi = [
 	{
 		"inputs": [],
 		"stateMutability": "nonpayable",
