@@ -52,8 +52,7 @@ async function makecardNandemoToken(){
   mycontract = await new web3tr.eth.Contract(abi, Address);
  	let useraddress = await web3tr.eth.getAccounts();
 	document.getElementById("idn").innerHTML = "年賀状到着まで約10秒かかります";
-  	let ret = await mycontract.methods.mint().send({ from: useraddress[0] });
-	ret.on("receipt" , setTimeout( checkcard() , 5000 ));
+  let ret = await mycontract.methods.mint().send({ from: useraddress[0] }).on("receipt" , setTimeout( checkcard() , 5000 ));;
 	console.log("useraddress[0]_is_your_Address:" + useraddress[0]);
 }
 
