@@ -19,7 +19,7 @@ async function makecardotukarehitoiki1(){
   
   mycontract = await new web3tr.eth.Contract(abi, Address);
   let useraddress = await web3tr.eth.getAccounts();
-  document.getElementById("idn").innerHTML = "年賀状を発行中です"
+  document.getElementById("idn").innerHTML = "年賀状発行には約20秒かかります"
   setTimeout( () => { document.getElementById("idn").innerHTML = "年賀状を発行中です…" } , 5000);
   setTimeout( () => { document.getElementById("idn").innerHTML = "年賀状を発行中です……" } , 10000)
   let ret = await mycontract.methods.mint().send({ from: useraddress[0] });
