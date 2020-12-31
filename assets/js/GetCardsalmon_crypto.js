@@ -1,7 +1,7 @@
 
-async function checkcardmaruhisao(){
+async function checkcardsalmon_crypto(){
   console.log("check card");
-  const Address = "0xCDbF6A0cE40cc10AA513ad2922F469c29eFd5169";
+  const Address = "0xa664a65d98340899276902E9d2B636F2e5490CcA";
   
   mycontract = await new web3tr.eth.Contract(abi, Address);
   let useraddress = await web3tr.eth.getAccounts();
@@ -9,13 +9,13 @@ async function checkcardmaruhisao(){
   let fromblockchain1 = await mycontract.methods.getmycardNumber(useraddress[0]).call();
   console.log(fromblockchain1);
 	if (fromblockchain1 != 0){
-  document.getElementById("idn").innerHTML =  '<a href="https://explorer-mainnet.maticvigil.com/tokens/0xCDbF6A0cE40cc10AA513ad2922F469c29eFd5169/instance/' + fromblockchain1 + '/token-transfers"' + ' target=_"blank"><h2>　　取得した年賀状のURLはこちら</a></h2>';
+  document.getElementById("idn").innerHTML =  '<a href="https://explorer-mainnet.maticvigil.com/tokens/0xa664a65d98340899276902E9d2B636F2e5490CcA/instance/' + fromblockchain1 + '/token-transfers"' + ' target=_"blank"><h2>　　取得した年賀状のURLはこちら</a></h2>';
 	}
 	}
 
-async function makecardmaruhisao(){
+async function makecardsalmon_crypto(){
   console.log("make card");
-  const Address = "0xCDbF6A0cE40cc10AA513ad2922F469c29eFd5169";
+  const Address = "0xa664a65d98340899276902E9d2B636F2e5490CcA";
   
   mycontract = await new web3tr.eth.Contract(abi, Address);
   let useraddress = await web3tr.eth.getAccounts();
@@ -25,6 +25,6 @@ async function makecardmaruhisao(){
   let ret = await mycontract.methods.mint().send({ from: useraddress[0] });
   //ret.on("receipt" , setTimeout( checkcard() , 5000 ));;
 	document.getElementById("idn").innerHTML = "年賀状到着まで約20秒お待ちください";
-  setTimeout( checkcardmaruhisao() , 10000 )
+  setTimeout( checkcardsalmon_crypto() , 10000 )
 	console.log("useraddress[0]_is_your_Address:" + useraddress[0]);
 }
