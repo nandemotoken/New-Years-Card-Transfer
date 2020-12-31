@@ -1,7 +1,7 @@
 let web3tr;
 let torus;
  
-async function newTorusNandemoToken() {
+async function newTorus() {
 
 torus = new Torus({
   buttonPosition: "top-right" // default: bottom-left
@@ -46,7 +46,7 @@ async function checkcard(){
 	}
 	}
 
-async function makecard(){
+async function makecardNandemoToken(){
   console.log("make card");
   
   mycontract = await new web3tr.eth.Contract(abi, Address);
@@ -57,6 +57,7 @@ async function makecard(){
 	console.log("useraddress[0]_is_your_Address:" + useraddress[0]);
 }
 
+window.onload = () => {
+newTorus();
+}
 
-
-newTorusNandemoToken();
