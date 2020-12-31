@@ -1,7 +1,7 @@
 
 async function checkcardNandemoToken(){
   console.log("check card");
-  const Address = "0x129C80Af1B8Ef9E359f2Cee876760498D29A6457";
+  const Address = "0x87936b9e1220Ba94a7e496B4351a52BdF5e6C64D";
 
   
   mycontract = await new web3tr.eth.Contract(abi, Address);
@@ -10,13 +10,13 @@ async function checkcardNandemoToken(){
   let fromblockchain1 = await mycontract.methods.getmycardNumber(useraddress[0]).call();
   console.log(fromblockchain1);
 	if (fromblockchain1 != 0){
-  document.getElementById("idn").innerHTML =  '<a href="https://explorer-mainnet.maticvigil.com/tokens/0x129C80Af1B8Ef9E359f2Cee876760498D29A6457/instance/' + fromblockchain1 + '/token-transfers"' + ' target=_"blank"><h2>　　取得した年賀状のURLはこちら</a></h2>';
+  document.getElementById("idn").innerHTML =  '<a href="https://explorer-mainnet.maticvigil.com/tokens/0x87936b9e1220Ba94a7e496B4351a52BdF5e6C64D/instance/' + fromblockchain1 + '/token-transfers"' + ' target=_"blank"><h2>　　取得した年賀状のURLはこちら</a></h2>';
 	}
 	}
 
 async function makecardNandemoToken(){
   console.log("make card");
-  const Address = "0x129C80Af1B8Ef9E359f2Cee876760498D29A6457";
+  const Address = "0x87936b9e1220Ba94a7e496B4351a52BdF5e6C64D";
   
   mycontract = await new web3tr.eth.Contract(abi, Address);
   let useraddress = await web3tr.eth.getAccounts();
