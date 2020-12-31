@@ -1,2 +1,2 @@
 # New-Years-Card-Transfer
-https://nandemotoken.github.com/New-Years-Card-Transfer/Template.html
+https://nandemotoken.github.io/New-Years-Card-Transfer/Template.html
