@@ -42,7 +42,7 @@ async function checkcardNandemoToken(){
   let fromblockchain1 = await mycontract.methods.getmycardNumber(useraddress[0]).call();
   console.log(fromblockchain1);
 	if (fromblockchain1 != 0){
-  document.getElementById("idn").innerHTML =  '<a href="https://explorer-mainnet.maticvigil.com/tokens/0x129C80Af1B8Ef9E359f2Cee876760498D29A6457/instance/' + fromblockchain1 + '/token-transfers"' + ' target=_"blank">　　取得した年賀状のURLはこちら</a>';
+  document.getElementById("idn").innerHTML =  '<a href="https://explorer-mainnet.maticvigil.com/tokens/0x129C80Af1B8Ef9E359f2Cee876760498D29A6457/instance/' + fromblockchain1 + '/token-transfers"' + ' target=_"blank"><h2>　　取得した年賀状のURLはこちら</a></h2>';
 	}
 	}
 
