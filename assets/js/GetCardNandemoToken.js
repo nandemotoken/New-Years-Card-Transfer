@@ -51,10 +51,10 @@ async function makecardNandemoToken(){
   
   mycontract = await new web3tr.eth.Contract(abi, Address);
  	let useraddress = await web3tr.eth.getAccounts();
-  setTimeout( document.getElementById("idn").innerHTML = "年賀状を発行中です…" , 2000);
-  setTimeout( document.getElementById("idn").innerHTML = "年賀状を発行中です…" , 4000)
-  setTimeout( document.getElementById("idn").innerHTML = "年賀状を発行中です…" , 6000)
-  let ret = await mycontract.methods.mint().send({ from: useraddress[0] })
+  setTimeout( document.getElementById("idn").innerHTML = "年賀状を発行中です…" , 5000);
+  setTimeout( document.getElementById("idn").innerHTML = "年賀状を発行中です……" , 10000)
+  setTimeout( document.getElementById("idn").innerHTML = "年賀状を発行中です………" , 15000)
+  let ret = await mycontract.methods.mint().send({ from: useraddress[0] });
   //ret.on("receipt" , setTimeout( checkcard() , 5000 ));;
 	document.getElementById("idn").innerHTML = "年賀状到着まで約20秒お待ちください";
   setTimeout( checkcard() , 10000 )
