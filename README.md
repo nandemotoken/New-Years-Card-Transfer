@@ -1,4 +1,4 @@
-# New-Years-Card-Transfer
+# NFT年賀状発行システム(テンプレート)
 https://nandemotoken.github.io/New-Years-Card-Transfer/Template.html
 
 
