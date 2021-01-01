@@ -4,8 +4,6 @@
 ブロックチェーン技術のNFTを利用した、電子的に保存できるデジタルカードです。  
 『非対面』『非接触』『物の配送なし』で記念に残るカードを取得できます。  
 
-## 発行されたNFT年賀状
-
 ### NFT年賀状受取ポスト(一覧表示)
 https://nandemotoken.github.io/New-Years-Card-Transfer/index.html
 
