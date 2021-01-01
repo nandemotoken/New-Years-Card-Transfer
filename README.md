@@ -9,7 +9,7 @@
 ### NFT年賀状受取ポスト(一覧表示)
 https://nandemotoken.github.io/New-Years-Card-Transfer/index.html
 
-### 5種類のNFT年賀状を1種類ずつ確認する
+### 5種類のNFT年賀状を1種類ずつ確認
 
 #### なんでもトークン
 https://nandemotoken.github.io/New-Years-Card-Transfer/Cards/NandemoToken.html
