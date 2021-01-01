@@ -13,33 +13,42 @@
 <body style="background: rgb(206,240,255);">
     <div class="row">
         <div class="col">
-            <h1 style="text-align: center;font-size: 48px;background: #ade6ff;">NFT年賀状　受取ポストページ</h1>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-8 offset-2"><img src="assets/img/white.png" width="100%">
-            <div class="text-center"><a class="btn btn-primary" role="button" style="font-size: 20px;" href="javascript:makecardNandemoToken()">NFT年賀状を取得</a></div>
+            <h1 style="text-align: center;font-size: 48px;background: #ade6ff;">NFT年賀状　操作画面ver3</h1>
         </div>
     </div>
     <div class="row">
         <div class="col">
-            <div>
-                <p class="text-left" style="background: #ade6ff;">&nbsp;NFT年賀状とは？<br>&nbsp;ブロックチェーン技術のNFTを利用した、電子的に保存できるデジタルカードです。<br>&nbsp;『非対面』『非接触』『物の配送なし』で記念に残るカードを取得できます。<br></p>
+            <h1>受取ポスト</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3 d-flex d-xl-flex align-items-center justify-content-xl-center align-items-xl-center"><img class="d-xl-flex" src="assets/img/yuubin_mail_bin.png" width="70%"></div>
+        <div class="col d-xl-flex justify-content-xl-center align-items-xl-start">
+            <div class="text-center">
+                <h3 class="text-left">受取ポストではNFT年賀状の受取状況を一括で確認できます</h3><a class="btn btn-primary" role="button" id="checkpost" style="font-size: 30px;" href="javascript:checkPost()">NFT年賀状のポストを確認</a>
+                <h6 class="text-left">※NFT年賀状の画像を確認する場合<br>　①CARD2021のトランザクションを探してください<br>　②CARD2021の左のTokenID [14]などの数字をクリックしてください<br></h6>
             </div>
         </div>
     </div>
     <div class="row">
         <div class="col">
-            <h5>年賀状取得状況</h5>
-            <p id="idn">　まだ年賀状を取得していません</p>
+            <div>
+                <p class="text-left" style="background: #ade6ff;">&nbsp;NFT年賀状とは？<br>&nbsp;ブロックチェーン技術のNFTを利用した、電子的に保存できるデジタルカードです。<br>&nbsp;『非対面』『非接触』『物の配送なし』で記念に残るカードを取得できます。<br>　2020年12月31日までに事前登録を頂いた方には、開発者側でブロックチェーン利用手数料を肩代わりする設計としています。</p>
+            </div>
+            <h1>NFT年賀状の新規取得</h1>
         </div>
     </div>
     <div class="row">
+        <div class="col-2 offset-1 d-flex d-xl-flex align-items-center justify-content-xl-center align-items-xl-center"><a href="javascript:makecardNandemoToken()">@NandemoToken<img class="d-xl-flex" src="assets/img/NandemoToken.png" width="100%"></a></div>
+        <div class="col-2 d-flex d-xl-flex align-items-center justify-content-xl-center align-items-xl-center"><a href="javascript:makecardHirory()">@Hirory_Chain<br><img class="d-xl-flex" src="assets/img/Hirory_Chain.jpg" width="100%"></a></div>
+        <div class="col-2 d-flex d-xl-flex align-items-center justify-content-xl-center align-items-xl-center"><a href="javascript:makecardotukarehitoiki1()">@otukarehitoiki1<br><img class="d-xl-flex" src="assets/img/otukarehitoiki1.jpg" width="100%"></a></div>
+        <div class="col-2 d-flex d-xl-flex align-items-center justify-content-xl-center align-items-xl-center"><a href="javascript:makecardsalmon_crypto()">@salmon_crypto<br><img class="d-xl-flex" src="assets/img/salmon_crypto.jpg" width="100%"></a></div>
+        <div class="col-2 d-flex d-xl-flex align-items-center justify-content-xl-center align-items-xl-center"><a href="javascript:makecardmaruhisao()">@maruhisao<br><img class="d-xl-flex" src="assets/img/maruhisao.jpg" width="50%"></a></div>
+    </div>
+    <div class="row">
         <div class="col">
-            <div style="text-align: center;"><a href="https://twitter.com/NandemoToken">年賀状作成：@〇〇様</a></div>
-        </div>
-        <div class="col">
-            <div style="text-align: center;"><a href="https://twitter.com/NandemoToken">システム開発：@NandemoToken</a></div>
+            <p style="background: #ade6ff;">　上記5種類のNFT年賀状を取得できます。<br>　年賀状の画像をクリックしたあとで、ブラウザ上のウォレットからの操作を許可して進んでください。<br>　(ウォレットからの案内はブラウザの右上に出ることが多く、操作が必要です)<br>　操作が済みましたら、約30秒程度でブロックチェーンに反映されますので、NFT年賀状の受取ポストを再度ご確認下さい。</p>
+            <p class="d-none" id="idn" style="background: #cef0ff;">　確認用データ</p>
         </div>
     </div>
     <script src="assets/js/jquery.min.js"></script>
