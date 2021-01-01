@@ -6,17 +6,22 @@
 
 ## 発行されたNFT年賀状
 
-### なんでもトークン
+### NFT年賀状受取ポスト(一覧表示)
+https://nandemotoken.github.io/New-Years-Card-Transfer/index.html
+
+### 5種類のNFT年賀状を1種類ずつ確認する
+
+#### なんでもトークン
 https://nandemotoken.github.io/New-Years-Card-Transfer/Cards/NandemoToken.html
 
-### Hirory様
+#### Hirory様
 https://nandemotoken.github.io/New-Years-Card-Transfer/Cards/Hirory.html
 
-### Da-様
+#### Da-様
 https://nandemotoken.github.io/New-Years-Card-Transfer/Cards/otukarehitoiki1.html
 
-### さーもん様
+#### さーもん様
 https://nandemotoken.github.io/New-Years-Card-Transfer/Cards/salmon_crypto.html
 
-### まるまる様
+#### まるまる様
 https://nandemotoken.github.io/New-Years-Card-Transfer/Cards/maruhisao.html
